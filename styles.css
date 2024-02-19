@@ -1,0 +1,18 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: mistyrose;
+    color: crimson;
+}
+.logo {
+    max-width: 100px;
+    display: block;
+    margin: auto;
+}
+.navigation{
+    text-align: center;
+    background-color: rgb(164, 243, 203);
+}
+.navigation a{
+    color: crimson;
+    text-decoration: none;
+}
