@@ -1,7 +1,12 @@
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Anton", sans-serif;
     background-color: mistyrose;
     color: crimson;
+    margin: 25px;
+}
+
+header {
+    background-color: #BEC8C9;
 }
 .logo {
     max-width: 100px;
@@ -10,11 +15,23 @@ body {
 }
 .navigation{
     text-align: center;
-    background-color: rgb(164, 243, 203);
+    background-color: rgb(218, 238, 196);
 }
 .navigation a{
     color: crimson;
     text-decoration: none;
     padding: 10px;
     display: inline-block;
+}
+.navigation a:hover {
+    background-color: rgb(134, 172, 93);
+}
+
+.banner {
+    /* 50vh = 50% window height */
+    min-height: 50vh;
+    background-image: url("australia_beach-unsplash.jpg");
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
 }
